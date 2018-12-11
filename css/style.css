@@ -1,0 +1,131 @@
+/*
+[GLOBAL]
+*/
+body {
+  font-family: 'Dosis', sans-serif;
+  padding: 20px 0;
+}
+hr {
+  border-top: 4px solid #bbb;
+}
+.row {
+  padding-top: 11px;
+}
+/*
+[HEADER]
+*/
+.profile-name {
+  font-weight: bolder;
+  font-size: 50px;
+  margin: 0;
+}
+.profile-job {
+  color: #02b3e4;
+  font-weight: 100;
+  font-size: 25px;
+  margin: 4px;
+}
+.text-thin {
+  font-weight: 100;
+}
+.logo {
+  max-width: 21%;
+  height: auto;
+}
+.text-right {
+  padding-right: 30px;
+}
+/*
+[PROJECTS]
+*/
+#project-featured {
+  font-family: sans-serif;
+  color: #7d97ad;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+.project {
+  text-align: center;
+}
+.profile-image {
+  width: 100%;
+}
+.project-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+.project-link {
+  font-size: 1em;
+  color: #666756;
+}
+
+/*
+[FOOTER]
+*/
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.love {
+  position: relative;
+  display: inline-block;
+  top: 2px;
+  font-size: 1.5em;
+  color: #ff0000;
+}
+/*
+[RESPONSIVE]
+
+/* Small devices, phones [320x534 - 480x800] */
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+  }
+
+  .profile-name {
+    font-size: 32px;
+    text-align: center;
+  }
+  .profile-job {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+/* Tablet PORTRAIT [720x1280 - 768x1024] */
+@media only screen and (max-width: 768px) {
+  .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+  }
+  .profile-name {
+    text-align: center;
+  }
+  .profile-job {
+    text-align: center;
+  }
+}
+/* DESKTOPS, Medium Devices */
+@media only screen and (max-width: 992px) {
+  .profile-name, .profile-job {
+    text-align: center;
+  }
+  .logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+    max-width: 30%;
+  }
+}
